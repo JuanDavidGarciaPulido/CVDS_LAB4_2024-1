@@ -3,7 +3,7 @@ package hangman.model;
 public class OriginalScore implements GameScore{
     int score = 100;
     int bonusScore = 0;
-    int penalty = -10;
+    int penalty = 10;
     int minScore = 0;
 
     /**

@@ -3,7 +3,7 @@ package hangman.model;
 public class PowerScore implements GameScore{
     int score = 0;
     int bonusScore = 5;
-    int penalty = -8;
+    int penalty = 8;
     int minScore = 0;
     int maxScore = 500;
 
