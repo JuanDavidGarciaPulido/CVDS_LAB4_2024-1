@@ -8,7 +8,7 @@ public class BonusScore implements GameScore{
 
     /**
      * This method calculates the current score with the next conditions. The game begins with 0 points, penalty of 5 points,
-     * 10 points for correct letter and the minimum score is 0.
+     * 10 points for correct letter and the minimum score is 0. 
      * @param correctCount int
      * @param incorrectCount int
      * @return int
