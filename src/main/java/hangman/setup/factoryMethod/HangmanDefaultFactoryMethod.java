@@ -7,7 +7,7 @@ import hangman.model.dictionary.HangmanDictionary;
 import hangman.view.HangmanPanel;
 import hangman.view.HangmanStickmanPanel;
 
-public class HangmanDefaultFactoryMethod extends HangmanFactoryMethod {
+public abstract class HangmanDefaultFactoryMethod extends HangmanFactoryMethod {
     @Override
     public Language createLanguage() {
         return new English();
